@@ -1,0 +1,213 @@
+@import url("https://fonts.cdnfonts.com/css/pixeboy");
+
+html {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.Masthead,
+.Masthead_article,
+.page_masthead {
+  font-weight: lighter;
+  font-family: "pixeboy";
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page_masthead,
+.Masthead_article{
+  text-align: center;
+  font-size: 6vw;
+  padding: 0 0 0 2%;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #fcf772;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  font-family: "Pixeboy", Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  height: 2em;
+  font-size: 2.5em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a.active {
+  border-bottom: 5px solid whitesmoke;
+  width: 15%;
+  text-align: center;
+}
+
+li {
+  margin-left: 5%;
+}
+
+a {
+  color: #3c3b40;
+  text-decoration: none;
+}
+
+img.Logo_Statiegeldbak {
+  width: 10%;
+  height: auto;
+  margin-top: 1%;
+}
+
+.main_content_qoute {
+  color: #3c3b40;
+  font-style: italic;
+  font-size: 6vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_content_qoute_div {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1.section_title {
+  font-family: "pixeboy";
+  text-align: center;
+  color: #3c3b40;
+}
+
+img.home_article_thumbnail {
+  /* Home page polygon, dented middle design */
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%,0 0);
+  height: 60em;
+  width: 90%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog_article_image{
+  width: 80%;
+  height: auto;
+  /* Blog page polygon, 6 corner design */
+  clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 0 85%, 0 15%);
+}
+
+.Article_container{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  border: 5px solid #3c3b40;
+  border-radius: 5%;
+  width: 90%;
+}
+
+.article_showroom {
+  position: relative;
+  text-align: center;
+  background-color: #fcf772;
+}
+
+/* Next & previous buttons */
+.button_slider_prev,
+.button_slider_next {
+  position: absolute;
+  top: 40.5%;
+  width: auto;
+  padding: 1vw;
+  color: #3c3b40;
+  font-weight: bold;
+  transition: 0.6s ease;
+  font-size: 6vw;
+}
+
+/* Position the "previous button" to the left */
+.button_slider_prev {
+  left: 0;
+}
+
+/* Position the "next button" to the right */
+.button_slider_next {
+  right: 0;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #3c3b40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 1vw;
+}
+
+.article_description{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+a.readMoreLink{
+  text-decoration: underline;
+}
+
+p.our_mission_text,
+p.people_text{
+  text-align: left;
+  font-style: italic;
+  padding: 2%;
+  margin: 0;
+}
+
+p.people_text{
+  font-size: 4vw;
+}
+
+img.people_image{
+  width: 20vw;
+  height: auto;
+  object-fit: cover;
+  margin:1%;
+}
+
+h2.people_name{
+  font-family: "pixeboy",Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 2%;
+  font-weight: lighter;
+}
+
+.people_description_box{
+  display: flex;
+}
